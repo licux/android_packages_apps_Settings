@@ -212,8 +212,9 @@ public final class WifiDisplaySettings extends SettingsPreferenceFragment {
     }
 
     public static boolean isAvailable(Context context) {
-        return context.getSystemService(Context.DISPLAY_SERVICE) != null
-                && context.getSystemService(Context.WIFI_P2P_SERVICE) != null;
+	    return false;
+//        return context.getSystemService(Context.DISPLAY_SERVICE) != null
+//                && context.getSystemService(Context.WIFI_P2P_SERVICE) != null;
     }
 
     private void scheduleUpdate(int changes) {

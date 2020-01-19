@@ -132,6 +132,8 @@ import com.android.settings.wifi.WifiInfo;
 import com.android.settings.wifi.WifiSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 
+import com.android.settings.MyEmuSettingsDashboardFragment;
+
 public class SettingsGateway {
 
     /**
@@ -139,6 +141,7 @@ public class SettingsGateway {
      * security exception if the fragment it needs to display is not in this list.
      */
     public static final String[] ENTRY_FRAGMENTS = {
+            MyEmuSettingsDashboardFragment.class.getName(),
             WifiSettings.class.getName(),
             ConfigureWifiSettings.class.getName(),
             SavedAccessPointsWifiSettings.class.getName(),
@@ -257,6 +260,7 @@ public class SettingsGateway {
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
             // Home page
+            Settings.MyEmuSettingsActivity.class.getName(),
             Settings.NetworkDashboardActivity.class.getName(),
             Settings.ConnectedDeviceDashboardActivity.class.getName(),
             Settings.AppAndNotificationDashboardActivity.class.getName(),

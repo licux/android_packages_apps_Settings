@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+        android:title="@string/myemu_dashboard_title">
+    
+    <ListPreference 
+        android:key="density_setting_list"
+        android:title="@string/density_setting_list"
+        android:entries="@array/density_setting_list"
+        android:entryValues="@array/density_setting_list"/>
+<!--
+    <EditTextPreference
+        android:key="setting_exitdext"
+        android:title="@string/settings_edittext"
+        android:dialogTitle="text"
+        android:inputType="textUri"/>
+
+        android:inputType="textNoSuggestions"
+        android:inputType="textPassword"
+        android:inputType="textEmailAddress"
+        android:inputType="textPassword"
+        android:inputType="number"
+
+    <ListPreference 
+        android:key="setting_list"
+        android:title="@string/settings_list"
+        android:entries="@array/myemu_list"
+        android:entryValues="@array/myemu_list"/>
+   
+    <MultiSelectListPreference
+        android:key="setting_multiselect"
+        android:title="@string/settings_multiselect"
+        android:entries="@array/myemu_list"
+        android:entryValues="@array/myemu_list"/>
+
+    <com.android.settings.widget.SeekBarPreference
+        android:key="setting_seekbar"
+        android:title="@string/settings_seekbar"
+        android:defaultValue="50"
+        android:max="100"/>
+
+    <SwitchPreference
+        android:key="setting_switch"
+        android:title="@string/settings_switch"
+        android:summary="@string/settings_switch_summary"/>
+
+    <CheckBoxPreference
+        android:key="setting_checkbox"
+        android:title="@string/settings_checkbox"
+        android:summary="@string/settings_checkbox_summary"/>
+-->
+</PreferenceScreen>

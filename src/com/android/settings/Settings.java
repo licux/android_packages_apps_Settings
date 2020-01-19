@@ -184,6 +184,7 @@ public class Settings extends SettingsActivity {
     public static class LegacySupportActivity extends SettingsActivity{ /* empty */ }
 
     // Top level categories for new IA
+    public static class MyEmuSettingsActivity extends SettingsActivity {}
     public static class NetworkDashboardActivity extends SettingsActivity {}
     public static class ConnectedDeviceDashboardActivity extends SettingsActivity {}
     public static class AppAndNotificationDashboardActivity extends SettingsActivity {}

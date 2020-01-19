@@ -1038,4 +1038,9 @@
         <item>never</item>
     </string-array>
 
+    <string-array name="density_setting_list" translatable="false">
+        <item>Phone</item>
+        <item>Tablet</item>
+        <item>LargeTablet</item>
+    </string-array>
 </resources>

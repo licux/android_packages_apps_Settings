@@ -9058,4 +9058,10 @@
 
     <!-- Note displayed when certain features are not available on low ram devices. [CHAR LIMIT=NONE] -->
     <string name="disabled_low_ram_device">This feature is not available on this device</string>
+
+    <!-- Myemu string-->
+    <string name="myemu_dashboard_title">MyEmu</string>
+    <string name="myemu_test_summary">MyEmulator Settings</string>
+    <string name="density_setting_list">MyEmulator Density</string>
+
 </resources>
