@@ -1043,4 +1043,12 @@
         <item>Tablet</item>
         <item>LargeTablet</item>
     </string-array>
+
+    <string-array name="theme_setting_list" translatable="false">
+        <item>Default</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Yellow</item>
+    </string-array>
 </resources>

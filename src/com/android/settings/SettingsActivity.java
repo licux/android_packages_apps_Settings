@@ -68,6 +68,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
+import android.os.SystemProperties;
+
 public class SettingsActivity extends SettingsDrawerActivity
         implements PreferenceManager.OnPreferenceTreeClickListener,
         PreferenceFragment.OnPreferenceStartFragmentCallback,
@@ -253,6 +255,12 @@ public class SettingsActivity extends SettingsDrawerActivity
 
     @Override
     protected void onCreate(Bundle savedState) {
+        String theme = SystemProperties.get("persist.sys.theme", "Default");
+        if(!theme.equals("Default")){
+            String new_theme = "Theme.MySettings" + theme;
+            int resId = getResources().getIdentifier(new_theme, "style", getPackageName());
+            setTheme(resId);
+        }
         super.onCreate(savedState);
         long startTime = System.currentTimeMillis();
 

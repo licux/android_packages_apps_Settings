@@ -193,6 +193,48 @@
         <item name="switchBarTheme">@style/ThemeOverlay.SwitchBar.SubSettings</item>
     </style>
 
+    <style name="Theme.MySettingsRed" parent="@Theme.SettingsBase">
+        <item name="colorPrimary">@color/MyRed</item>
+        <item name="colorPrimaryDark">@color/MyRed</item>
+        <item name="android:statusBarColor">@color/MyRed</item>
+        <item name="android:navigationBarColor">@color/MyRed</item>
+        <item name="android:windowBackground">@color/MyRedBack</item>
+        <!-- <item name="android:textColorPrimary">@color/MyRed</item> -->
+        <item name="switchBarBackgroundColor">@color/MyRed</item>
+    </style>
+    
+    <style name="Theme.MySettingsGreen" parent="@Theme.SettingsBase">
+        <item name="colorPrimary">@color/MyGreen</item>
+        <item name="colorPrimaryDark">@color/MyGreen</item>
+        <item name="android:statusBarColor">@color/MyGreen</item>
+        <item name="android:navigationBarColor">@color/MyGreen</item>
+        <item name="android:windowBackground">@color/MyGreenBack</item>
+        <!-- <item name="android:textColorPrimary">@color/MyGreen</item> -->
+        <item name="switchBarBackgroundColor">@color/MyGreen</item>
+    </style>
+
+    <style name="Theme.MySettingsBlue" parent="@Theme.SettingsBase">
+        <item name="colorPrimary">@color/MyBlue</item>
+        <item name="colorPrimaryDark">@color/MyBlue</item>
+        <item name="android:statusBarColor">@color/MyBlue</item>
+        <item name="android:navigationBarColor">@color/MyBlue</item>
+        <item name="android:windowBackground">@color/MyBlueBack</item>
+        <!-- <item name="android:textColorPrimary">@color/MyBlue</item> -->
+        <item name="switchBarBackgroundColor">@color/MyBlue</item>
+    </style>
+    
+    <style name="Theme.MySettingsYellow" parent="@Theme.SettingsBase">
+        <item name="colorPrimary">@color/MyYellow</item>
+        <item name="colorPrimaryDark">@color/MyYellow</item>
+        <item name="android:statusBarColor">@color/MyYellow</item>
+        <item name="android:navigationBarColor">@color/MyYellow</item>
+        <item name="android:windowBackground">@color/MyYellowBack</item>
+        <!-- <item name="android:textColorPrimary">@color/MyYellow</item> -->
+        <item name="switchBarBackgroundColor">@color/MyYellow</item>
+    </style>
+    
+    
+
     <!-- Variant of the settings theme with no action bar. -->
     <style name="Theme.Settings.NoActionBar">
         <item name="android:windowActionBar">false</item>

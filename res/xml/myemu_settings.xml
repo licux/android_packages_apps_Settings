@@ -10,6 +10,14 @@
         android:title="@string/density_setting_list"
         android:entries="@array/density_setting_list"
         android:entryValues="@array/density_setting_list"/>
+
+    <ListPreference
+        android:key="theme_setting_list"
+        android:title="@string/theme_setting_list"
+        android:entries="@array/theme_setting_list"
+        android:entryValues="@array/theme_setting_list"
+        android:summary="@array/theme_setting_list"/>
+
 <!--
     <EditTextPreference
         android:key="setting_exitdext"

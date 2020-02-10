@@ -9061,7 +9061,8 @@
 
     <!-- Myemu string-->
     <string name="myemu_dashboard_title">MyEmu</string>
-    <string name="myemu_test_summary">MyEmulator Settings</string>
+    <string name="myemu_dashboard_summary">MyEmulator Settings</string>
     <string name="density_setting_list">MyEmulator Density</string>
+    <string name="theme_setting_list">MyEmulator Theme</string>
 
 </resources>
